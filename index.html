@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="pattern">
+      <div class="flex flex-col justify-center items-center mx-4 md:mx-0">
+        <div
+          class="
+            w-full
+            sm:w-11/12
+            md:w-10/12
+            lg:w-8/12
+            xl:w-6/12
+            2xl:w-4/12
+            border
+            mt-24
+            shadow-2xl
+            rounded-3xl
+            bg-white
+          "
+        >
+          <div
+            class="
+              w-full
+              h-52
+              sm:h-64
+              md:h-64 md:h-52
+              bg-header
+              rounded-tl-3xl rounded-tr-3xl
+            "
+          ></div>
+          <div class="flex flex-col items-center justify-center p-10">
+            <h1 class="font-bold text-3xl text-header mb-5">Order Summary</h1>
+            <span class="text text-center">
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </span>
+            <div class="flex flex-row p-5 bg-plan w-full gap-5 my-7 rounded">
+              <div class="music-img h-12 w-12"></div>
+              <div class="flex-1">
+                <h1 class="font-bold text-header">Annual Plan</h1>
+                <span class="text">$59.99/year</span>
+              </div>
+              <div
+                class="
+                  flex
+                  items-center
+                  color-primary
+                  font-bold
+                  underline
+                  cursor-pointer
+                "
+              >
+                Change
+              </div>
+            </div>
+
+            <div
+              class="
+                w-full
+                rounded-xl
+                bg-primary
+                text-center text-white
+                p-2
+                shadow-xl
+                cursor-pointer
+              "
+            >
+              Proceed to Payment
+            </div>
+
+            <div class="mt-4 cursor-pointer font-semibold text">
+              Cancel Order
+            </div>
+
+            <small class="text-gray-500">
+              Challenge by
+              <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+              >. Coded by
+              <a class="text" href="https://www.linkedin.com/in/julianchz/"
+                >JuLiAnChz</a
+              >.
+            </small>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
